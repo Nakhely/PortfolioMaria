@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PortfolioMaria"
+    }
+  },
+  "defaultProject": "PortfolioMaria",
+  "cli": {
+    "analytics": "6ed857b5-aaf4-4b89-8ae8-a64e893ea00f"
+  }
 }
