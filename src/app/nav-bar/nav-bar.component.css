@@ -35,13 +35,13 @@ nav{
 .option{
   display: flex;
   height: 100%;
+  text-decoration: none;
+  color: #616161;
   text-align: center;
   align-items: center;
   padding: 0 60px;
   margin: auto 0;
   font-size: 25px;
-  cursor: pointer!important;
-
 }
 
 .option:hover {
