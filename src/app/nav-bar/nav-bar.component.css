@@ -41,7 +41,7 @@ nav{
   margin: auto 0;
   font-size: 25px;
   pointer-events: auto;
-
+  cursor:pointer !important;
 }
 
 .option:hover {

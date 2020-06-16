@@ -1,0 +1,15 @@
+
+.title{
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+}
+.work-cards{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 2px 16px;
+}

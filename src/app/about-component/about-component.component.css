@@ -1,0 +1,32 @@
+.principal-continer {
+  position: relative;
+}
+
+.photo-continer{
+  width: 100%;
+  display: flex;
+  height: 750px;
+  overflow: hidden;
+}
+
+.black{
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.photo{
+  width: 100%;
+}
+
+.blank-space {
+  width: 440px;
+}
+
+.image {
+  flex: 1;
+  background: url(../../assets/img/Asiatica_Demetrio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
