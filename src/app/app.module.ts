@@ -5,13 +5,14 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponentComponent } from './about-component/about-component.component';
 import { MyworksComponentComponent } from './myworks-component/myworks-component.component';
-
+import { SkillsComponentComponent } from './skills-component/skills-component.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     AboutComponentComponent,
-    MyworksComponentComponent
+    MyworksComponentComponent,
+    SkillsComponentComponent,
   ],
   imports: [
     BrowserModule
