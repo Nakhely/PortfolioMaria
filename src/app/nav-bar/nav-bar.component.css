@@ -50,6 +50,7 @@ nav{
   padding: 0 60px;
   margin: auto 0;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .option:hover {

@@ -54,8 +54,8 @@
 
 .image {
   flex: 1;
-  background: url(../../assets/img/Asiatica_Demetrio.jpg);
-  background-position: center;
+  background-image: url(../../assets/img/Asiatica_Demetrio.jpg);
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
