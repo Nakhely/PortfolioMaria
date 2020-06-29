@@ -12,13 +12,4 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  /* Estos dos métodos se encargan de hacer el efecto smooth scroll */
-
-  goAbout() {
-    document.getElementById('about-me').scrollIntoView({behavior: 'smooth'});
-  }
-
-  goMyWorks() {
-    document.getElementById('my-works').scrollIntoView({behavior: 'smooth'});
-  }
 }
