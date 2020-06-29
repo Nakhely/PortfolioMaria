@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import anime from 'animejs/lib/anime.es.js';
 
 @Component({
   selector: 'app-about-component',
@@ -11,19 +10,6 @@ export class AboutComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    anime({
-      targets: '.title, .description',
-      opacity: [0, 1],
-      duration: 800,
-      delay: 500,
-      easing: 'linear'
-    });
-
-    anime({
-      targets: '.black',
-      scaleX: [600, 1],
-      duration: 900,
-      easing: 'easeOutExpo'
-    });
   }
+
 }
