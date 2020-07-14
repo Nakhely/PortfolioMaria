@@ -1,35 +1,23 @@
 nav{
   width: 100%;
-  height: 85px;
+  height: 65px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   position: fixed;
   z-index: 2;
+  font-family: 'Merienda One', cursive;
 }
 
-.nav-container{
-  width: 100%;
+.logo-container .name{
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  line-height: 65px;
   height: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-/*Estilos logo*/
-.logo-container{
-  width: 10%;
-  height: 100%;
-  padding: 0 0 0 20px;
-}
-
-.logo-container .logo{
-  width:100%;
-  height: 100%;
-  background-image: url("../../assets/img/maria-logo_2.svg");
-  background-position: center;
-  background-size: 40%;
-  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #313131;
 }
 
 /*Estilos opciones del navbar*/
@@ -47,9 +35,9 @@ nav{
   color: #616161;
   text-align: center;
   align-items: center;
-  padding: 0 60px;
+  padding: 0 40px;
   margin: auto 0;
-  font-size: 25px;
+  font-size: 18px;
   cursor: pointer;
 }
 

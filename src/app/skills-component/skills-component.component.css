@@ -1,12 +1,13 @@
 .cards-skill {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .card-front, .card-back {
   background-color: white;
-  margin: -50px 50px 50px 0 ;
   width: 250px;
   padding: 42px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -44,4 +45,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.container-text h2,h3{
+  size: 38px;
+  font-weight: bold;
+  color:#242B33;
+}
+
+.container-text p{
+  size: 22px;
+  color:#3E3E3E;
+}
+
+.icon-angular{
+  background-image: url("../../assets/img-icon/Icon awesome-angular.svg ");
+}
+.icon-git{
+  background-image: url("../../assets/img-icon/Icon awesome-angular.svg ");
+
+}
+.ball{
+
 }
