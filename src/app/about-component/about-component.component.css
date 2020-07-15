@@ -16,16 +16,16 @@
 
 .text-container {
   display: flex;
+  position: absolute;
   height: 300px;
   text-align: center;
   flex-direction: column;
   align-items: center;
   max-width: 900px;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-
-  background-image: url("../../assets/img/background-photo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 h1.my-name {
@@ -39,4 +39,23 @@ p.about-me-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 19px;
   color: var( --simple-text-color );
+}
+
+.background-photo {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  height: 550px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-image: url("../../assets/img/background-photo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.white-space {
+  width: 100%;
+  height: 300px;
 }
