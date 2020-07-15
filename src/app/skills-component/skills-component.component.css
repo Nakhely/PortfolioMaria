@@ -22,20 +22,20 @@
 
 .icon-front {
   width:100%;
-  height: 220px;
+  height: 120px;
   background-image: url("../../assets/img/Icon metro-mobile.svg");
   background-position: center;
-  background-size: 40%;
+  background-size: contain;
   background-repeat: no-repeat;
 
 }
 
 .icon-back{
   width:100%;
-  height: 220px;
+  height: 120px;
   background-image: url("../../assets/img/Icon awesome-server.svg");
   background-position: center;
-  background-size: 55%;
+  background-size: contain;
   background-repeat: no-repeat;
 
 }
@@ -48,14 +48,16 @@
 }
 
 .container-text h2,h3{
-  size: 38px;
+  font-size: 20px;
   font-weight: bold;
-  color:#242B33;
+  color: var( --title-color );
+  font-family: 'Merienda One', cursive;
 }
 
 .container-text p{
-  size: 22px;
-  color:#3E3E3E;
+  size: 17px;
+  color: var( --simple-text-color );
+  font-family: 'Open Sans', sans-serif;
 }
 
 .icon-angular{

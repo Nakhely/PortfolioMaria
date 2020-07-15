@@ -1,11 +1,19 @@
 
 .title{
   text-align: center;
+  font-family: 'Merienda One', cursive;
+  color: var( --title-color );
+  font-size: 25px;
 }
 
 .description{
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: var( --simple-text-color );
+  font-size: 19px;
+  font-weight: normal!important;
 }
+
 .work-cards{
   display: flex;
   flex-direction: row;

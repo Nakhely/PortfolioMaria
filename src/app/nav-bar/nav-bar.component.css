@@ -25,7 +25,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 80%;
+  flex: 1;
 }
 
 .option{
@@ -43,9 +43,9 @@ nav{
 
 .option:hover {
   transition: 0.2s;
-  border-bottom: 3px solid #002A4A;
+  color: var( --title-color );
 }
 
 .active{
-  border-bottom: 3px solid #002A4A;
+  color: var( --title-color );
 }

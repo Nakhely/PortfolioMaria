@@ -1,0 +1,42 @@
+.photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  padding-top: 90px;
+}
+
+.photo {
+  width: 280px;
+  height: 310px;
+  background-image: url("../../assets/img/foto-maria.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text-container {
+  display: flex;
+  height: 300px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+
+  background-image: url("../../assets/img/background-photo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1.my-name {
+  font-family: 'Merienda One', cursive;
+  font-size: 30px;
+  color: var( --title-color );
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+p.about-me-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  color: var( --simple-text-color );
+}
