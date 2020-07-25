@@ -12,7 +12,7 @@ export class AboutComponentComponent implements OnInit {
 
   ngOnInit(): void {
     anime({
-      targets: '.title, .description',
+      targets: '.photo-container, .text-container',
       opacity: [0, 1],
       duration: 800,
       delay: 500,
@@ -20,10 +20,18 @@ export class AboutComponentComponent implements OnInit {
     });
 
     anime({
-      targets: '.black',
-      scaleX: [600, 1],
-      duration: 900,
-      easing: 'easeOutExpo'
+      targets: '.background-photo',
+      opacity: [0, 1],
+      duration: 800,
+      delay: 800,
+      easing: 'linear'
+    });
+
+    anime({
+      targets: '.photo-container, .text-container',
+      translateY: [-80, 1],
+      duration: 1000,
+      easing: 'linear'
     });
   }
 }

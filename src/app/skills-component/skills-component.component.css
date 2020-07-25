@@ -60,13 +60,82 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.icon-angular{
-  background-image: url("../../assets/img-icon/Icon awesome-angular.svg ");
+.icons-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 205px;
+  margin: 0 auto;
 }
-.icon-git{
-  background-image: url("../../assets/img-icon/Icon awesome-angular.svg ");
 
-}
 .ball{
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin-bottom: 8px;
+  background: var( --balls-color );
+}
 
+.icon-angular {
+  background-image: url("../../assets/img-icon/Icon awesome-angular.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-git {
+  background-image: url("../../assets/img-icon/Icon awesome-git-alt.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-laravel {
+  background-image: url("../../assets/img-icon/Icon awesome-laravel.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-wordpress {
+  background-image: url("../../assets/img-icon/Icon awesome-wordpress-simple.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-android {
+  background-image: url("../../assets/img-icon/Icon ionic-logo-android.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-ios {
+  background-image: url("../../assets/img-icon/Icon iOS.svg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-flutter {
+  background-image: url("../../assets/img-icon/Icon simple-flutter.svg");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-unity {
+  background-image: url("../../assets/img-icon/Icon simple-unity.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-spring {
+  background-image: url("../../assets/img-icon/springio-icon.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
