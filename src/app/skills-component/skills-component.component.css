@@ -139,3 +139,32 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.icon-mysql{
+  background-image: url("../../assets/img-icon/Icon simple-mysql.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.icon-oracle{
+  background-image: url("../../assets/img-icon/Icon simple-oracle.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-firebase{
+  background-image: url("../../assets/img-icon/Icon simple-firebase.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-sqlite{
+  background-image: url("../../assets/img-icon/Icon Sqlite.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
