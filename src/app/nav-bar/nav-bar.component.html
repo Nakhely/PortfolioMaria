@@ -10,7 +10,8 @@
     <div class="nav-options">
       <a (click)="smoothScroll('about-me')" class="option" [routerLink]="['about_me']" routerLinkActive="active">About me</a>
       <a (click)="smoothScroll('my-works')"  class="option" [routerLink]="['my_works']" routerLinkActive="active">Projects</a>
-      <a class="option" href="#">Contact</a>
+      <a (click)="smoothScroll('contact')"  class="option" [routerLink]="['contact']" routerLinkActive="active">Contact</a>
+
     </div>
   </div>
 </nav>
