@@ -1,0 +1,64 @@
+.contact-container{
+display: flex;
+flex-direction: row;
+}
+
+
+.text-get-in-touch{
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+  background-image: url("../../assets/img/imagen_fondo_formulario.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-you{
+  width: 50%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+h2.get-in-touch{
+  font-family: 'Merienda One', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+
+h2.text-about-you{
+  font-family: 'Merienda One', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+input, textarea{
+  width: 100%;
+  border-radius: 9px;
+  font-size: 17px;
+  padding: 8px;
+  border-color: var(--title-color);
+  border-width: 0.4px;
+}
+
+textarea{
+  min-width: 550px;
+  min-height: 150px;
+  max-width: 550px;
+}
+
+p.text-email{
+  font-family: "Open Sans",sans-serif;
+  font-size: 17px;
+  color: var(--simple-text-color);
+}
+.send-botton{
+  width: 130px;
+  background: var(--title-color);
+  color: white;
+  margin: 25px 0;
+}
