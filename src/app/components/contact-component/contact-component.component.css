@@ -9,7 +9,7 @@ flex-direction: row;
   max-width: 500px;
   margin: 0 auto;
   padding-top: 150px;
-  background-image: url("../../assets/img/imagen_fondo_formulario.svg");
+  background-image: url("../../../assets/img/imagen_fondo_formulario.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -38,11 +38,15 @@ h2.text-about-you{
 
 input, textarea{
   width: 100%;
-  border-radius: 9px;
+  border-radius: 6px;
   font-size: 17px;
   padding: 8px;
   border-color: var(--title-color);
   border-width: 0.4px;
+}
+
+input, textarea:focus{
+  outline: none;
 }
 
 textarea{
@@ -61,4 +65,16 @@ p.text-email{
   background: var(--title-color);
   color: white;
   margin: 25px 0;
+}
+
+.input-invalid {
+  border-color: red;
+  transition: border-color 1s ease;
+}
+
+.danger-text {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  font-size: 16px;
+  margin: 8px 0;
 }

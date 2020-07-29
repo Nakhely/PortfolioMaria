@@ -9,7 +9,7 @@
 .photo {
   width: 280px;
   height: 310px;
-  background-image: url("../../assets/img/foto-maria.png");
+  background-image: url("../../../assets/img/foto-maria.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -50,7 +50,7 @@ p.about-me-text {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-image: url("../../assets/img/background-photo.svg");
+  background-image: url("../../../assets/img/background-photo.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

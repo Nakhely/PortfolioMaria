@@ -1,7 +1,7 @@
 import {RouterModule, Routes} from '@angular/router';
-import {AboutComponentComponent} from './about-component/about-component.component';
-import {MyworksComponentComponent} from './myworks-component/myworks-component.component';
-import {ContactComponentComponent} from './contact-component/contact-component.component';
+import {AboutComponentComponent} from './components/about-component/about-component.component';
+import {MyworksComponentComponent} from './components/myworks-component/myworks-component.component';
+import {ContactComponentComponent} from './components/contact-component/contact-component.component';
 
 /* Fichero de rutas para el navbar */
 

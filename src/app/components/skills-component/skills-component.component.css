@@ -23,7 +23,7 @@
 .icon-front {
   width:100%;
   height: 120px;
-  background-image: url("../../assets/img/Icon metro-mobile.svg");
+  background-image: url("../../../assets/img/Icon metro-mobile.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 .icon-back{
   width:100%;
   height: 120px;
-  background-image: url("../../assets/img/Icon awesome-server.svg");
+  background-image: url("../../../assets/img/Icon awesome-server.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -78,70 +78,70 @@
 }
 
 .icon-angular {
-  background-image: url("../../assets/img-icon/Icon awesome-angular.svg");
+  background-image: url("../../../assets/img-icon/Icon awesome-angular.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-git {
-  background-image: url("../../assets/img-icon/Icon awesome-git-alt.svg");
+  background-image: url("../../../assets/img-icon/Icon awesome-git-alt.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-laravel {
-  background-image: url("../../assets/img-icon/Icon awesome-laravel.svg");
+  background-image: url("../../../assets/img-icon/Icon awesome-laravel.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-wordpress {
-  background-image: url("../../assets/img-icon/Icon awesome-wordpress-simple.svg");
+  background-image: url("../../../assets/img-icon/Icon awesome-wordpress-simple.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-android {
-  background-image: url("../../assets/img-icon/Icon ionic-logo-android.svg");
+  background-image: url("../../../assets/img-icon/Icon ionic-logo-android.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-ios {
-  background-image: url("../../assets/img-icon/Icon iOS.svg");
+  background-image: url("../../../assets/img-icon/Icon iOS.svg");
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-flutter {
-  background-image: url("../../assets/img-icon/Icon simple-flutter.svg");
+  background-image: url("../../../assets/img-icon/Icon simple-flutter.svg");
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-unity {
-  background-image: url("../../assets/img-icon/Icon simple-unity.svg");
+  background-image: url("../../../assets/img-icon/Icon simple-unity.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-spring {
-  background-image: url("../../assets/img-icon/springio-icon.svg");
+  background-image: url("../../../assets/img-icon/springio-icon.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-mysql{
-  background-image: url("../../assets/img-icon/Icon simple-mysql.svg");
+  background-image: url("../../../assets/img-icon/Icon simple-mysql.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,21 +149,21 @@
 
 
 .icon-oracle{
-  background-image: url("../../assets/img-icon/Icon simple-oracle.svg");
+  background-image: url("../../../assets/img-icon/Icon simple-oracle.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-firebase{
-  background-image: url("../../assets/img-icon/Icon simple-firebase.svg");
+  background-image: url("../../../assets/img-icon/Icon simple-firebase.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .icon-sqlite{
-  background-image: url("../../assets/img-icon/Icon Sqlite.svg");
+  background-image: url("../../../assets/img-icon/Icon Sqlite.svg");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;

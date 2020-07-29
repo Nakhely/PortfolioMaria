@@ -1,0 +1,38 @@
+<div class="contact-container">
+
+  <div class="text-get-in-touch">
+    <h2 class="get-in-touch">Get in touch</h2>
+    <p class="text-email">If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below or send an email to mariaom.jobs@gmail.com
+      and ~let's talk.</p>
+    <div class="image-background"></div>
+  </div>
+
+<div class="about-you">
+
+  <h2 class="text-about-you">About you</h2>
+
+  <form (ngSubmit)="sendMessage( data )" #data="ngForm">
+
+    <p>Name*</p>
+    <input type="text" placeholder="Enter your name" name="name" ngModel #name = "ngModel" [class.input-invalid]="name.invalid && name.touched"  required minlength="3">
+    <p *ngIf="name.touched && name.value.length == 0" class="danger-text">Campo obligatorio</p>
+    <p *ngIf="name.invalid && name.touched && name.value.length > 0" class="danger-text">Ingrese 3 letras</p>
+
+    <p>Email*</p>
+    <input type="email" placeholder="Enter your email" name="email" ngModel #email = "ngModel" [class.input-invalid]="email.invalid && email.touched"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+    <p *ngIf="email.touched && email.value.length == 0" class="danger-text">Campo obligatorio</p>
+    <p *ngIf="email.invalid && email.touched && email.value.length > 0" class="danger-text">El correo ingresado no es valido</p>
+
+    <p>Phone</p>
+    <input type="tel" placeholder="Enter your phone" name="telephone" ngModel #telephone = "ngModel" [class.input-invalid]="telephone.invalid">
+
+    <p>Message*</p>
+    <textarea name="message" ngModel #message = "ngModel" [class.input-invalid]="message.touched && message.invalid" required></textarea>
+    <p *ngIf="message.touched && message.value.length == 0" class="danger-text">Campo obligatorio</p>
+    <input type="submit" value="Send" class="send-botton">
+   </form>
+
+</div>
+
+</div>
+
