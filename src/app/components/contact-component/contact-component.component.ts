@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import {AngularFirestoreCollection, AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-contact-component',
@@ -8,9 +9,15 @@ import { NgForm } from '@angular/forms';
 })
 export class ContactComponentComponent implements OnInit {
 
-  constructor() { }
+  private submissionForm: AngularFirestoreCollection<any>;
+
+  constructor( private firestore: AngularFirestore ) { }
+
+  submitting = false;
+  submitted = false;
 
   ngOnInit(): void {
+    this.submissionForm = this.firestore.collection('submissions');
   }
 
   sendMessage( data: NgForm ): void {
@@ -21,6 +28,15 @@ export class ContactComponentComponent implements OnInit {
       });
     } else {
       console.log(data);
+      console.log(this.submitted);
+
+      this.submitting = true;
+      this.submissionForm.add(data).then(res => {
+        this.submitted = true;
+      }).catch(err => console.log(err)
+      ).finally(() => {
+        this.submitting = false;
+      });
 
     }
 

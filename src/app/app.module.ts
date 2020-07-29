@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 
 // Rutas
 import { APP_ROUTING } from './app.routes';
@@ -29,7 +31,8 @@ import { FooterComponentComponent } from './components/footer-component/footer-c
     BrowserModule,
     HttpClientModule,
     APP_ROUTING,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
