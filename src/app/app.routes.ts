@@ -1,5 +1,6 @@
 import {RouterModule, Routes} from '@angular/router';
 import {AboutComponentComponent} from './components/about-component/about-component.component';
+import {SkillsComponentComponent} from './components/skills-component/skills-component.component';
 import {MyworksComponentComponent} from './components/myworks-component/myworks-component.component';
 import {ContactComponentComponent} from './components/contact-component/contact-component.component';
 
@@ -7,6 +8,7 @@ import {ContactComponentComponent} from './components/contact-component/contact-
 
 const APP_ROUTES: Routes = [
   {path: 'about_me', component: AboutComponentComponent},
+  {path: 'skills', component: SkillsComponentComponent},
   {path: 'my_works', component: MyworksComponentComponent},
   {path: 'contact', component: ContactComponentComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'about_me'}

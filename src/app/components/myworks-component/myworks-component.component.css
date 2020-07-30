@@ -1,16 +1,15 @@
-
 .title{
   text-align: center;
   font-family: 'Merienda One', cursive;
   color: var( --title-color );
-  font-size: 25px;
+  font-size: 1.5625em;
 }
 
 .description{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: var( --simple-text-color );
-  font-size: 19px;
+  font-size: 1.1875em;
   font-weight: normal!important;
 }
 
@@ -22,6 +21,6 @@
 }
 
 .work-cards img{
-  width: 360px;
-  height: 233px;
+  width: 22.5em;
+  height: 14.5625em;
 }

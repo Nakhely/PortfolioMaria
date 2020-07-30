@@ -1,6 +1,6 @@
 <nav>
 
-  <div class="container row">
+  <div class="row">
 
     <div class=" logo-container">
       <a href="/" class="name">María</a>
@@ -9,9 +9,11 @@
     <!-- Nota: Faltaría el del formulario tanto en el typescript como en el html -->
     <div class="nav-options">
       <a (click)="smoothScroll('about-me')" class="option" [routerLink]="['about_me']" routerLinkActive="active">About me</a>
+      <a (click)="smoothScroll('skills')"  class="option" [routerLink]="['skills']" routerLinkActive="active">Skills</a>
       <a (click)="smoothScroll('my-works')"  class="option" [routerLink]="['my_works']" routerLinkActive="active">Projects</a>
-      <a (click)="smoothScroll('contact')"  class="option" [routerLink]="['contact']" routerLinkActive="active">Contact</a>
-
+      <!--<a (click)="smoothScroll('contact')"  class="option" [routerLink]="['contact']" routerLinkActive="active">Contact</a>-->
     </div>
+
+    <div class="transparent-space"></div>
   </div>
 </nav>

@@ -3,12 +3,12 @@
   flex-direction: row;
   justify-content: center;
   flex: 1;
-  padding-top: 90px;
+  padding-top: 5.625em;
 }
 
 .photo {
-  width: 280px;
-  height: 310px;
+  width: 17.5em;
+  height: 19.375em;
   background-image: url("../../../assets/img/foto-maria.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -17,11 +17,11 @@
 .text-container {
   display: flex;
   position: absolute;
-  height: 300px;
+  height: 18.75em;
   text-align: center;
   flex-direction: column;
   align-items: center;
-  max-width: 800px;
+  max-width: 50em;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -30,22 +30,22 @@
 
 h1.my-name {
   font-family: 'Merienda One', cursive;
-  font-size: 30px;
+  font-size: 1.875em;
   color: var( --title-color );
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  text-shadow: 0 0.1875em 0.375em rgba(0, 0, 0, 0.16);
 }
 
 p.about-me-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 19px;
+  font-size: 1.1875em;
   color: var( --simple-text-color );
 }
 
 .background-photo {
   display: flex;
   width: 100%;
-  max-width: 1000px;
-  height: 550px;
+  max-width: 62.5em;
+  height: 34.375em;
   position: absolute;
   left: 0;
   right: 0;
@@ -57,5 +57,10 @@ p.about-me-text {
 
 .white-space {
   width: 100%;
-  height: 300px;
+  height: 18.75em;
+}
+
+.white-space-two {
+  width: 100%;
+  height: 0.5em;
 }

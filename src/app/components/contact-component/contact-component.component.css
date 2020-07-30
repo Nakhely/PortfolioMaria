@@ -6,9 +6,9 @@ flex-direction: row;
 
 .text-get-in-touch{
   width: 50%;
-  max-width: 500px;
+  max-width: 31.25em;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 9.375em;
   background-image: url("../../../assets/img/imagen_fondo_formulario.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,7 +16,7 @@ flex-direction: row;
 
 .about-you{
   width: 50%;
-  max-width: 550px;
+  max-width: 34.375em;
   margin: 0 auto;
 }
 
@@ -24,25 +24,25 @@ h2.get-in-touch{
   font-family: 'Merienda One', cursive;
   font-weight: normal;
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 40px;
+  font-size: 1.875em;
+  margin-bottom: 2.5em;
 }
 
 
 h2.text-about-you{
   font-family: 'Merienda One', cursive;
   font-weight: normal;
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 1.25em;
+  margin-bottom: 1.875em;
 }
 
 input, textarea{
   width: 100%;
-  border-radius: 6px;
-  font-size: 17px;
-  padding: 8px;
+  border-radius: 0.375em;
+  font-size: 1.0625em;
+  padding: 0.5em;
   border-color: var(--title-color);
-  border-width: 0.4px;
+  border-width: 0.025em;
 }
 
 input, textarea:focus{
@@ -50,21 +50,21 @@ input, textarea:focus{
 }
 
 textarea{
-  min-width: 550px;
-  min-height: 150px;
-  max-width: 550px;
+  min-width: 34.375em;
+  min-height: 9.375em;
+  max-width: 34.375em;
 }
 
 p.text-email{
   font-family: "Open Sans",sans-serif;
-  font-size: 17px;
+  font-size: 1.0625em;
   color: var(--simple-text-color);
 }
 .send-botton{
-  width: 130px;
+  width: 8.125em;
   background: var(--title-color);
   color: white;
-  margin: 25px 0;
+  margin: 1.5625em 0;
 }
 
 .input-invalid {
@@ -75,6 +75,6 @@ p.text-email{
 .danger-text {
   font-family: 'Open Sans', sans-serif;
   color: red;
-  font-size: 16px;
-  margin: 8px 0;
+  font-size: 1em;
+  margin: 0.5em 0;
 }

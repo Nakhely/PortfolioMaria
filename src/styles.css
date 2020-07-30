@@ -12,25 +12,31 @@
 
 html{
   background: var( --background-color );
+  width: 100%!important;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100%!important;
 }
 
 .container{
-  max-width: 1600px;
-  width: 90%;
+  max-width: 100em;
+  width: 100%;
   margin: 0 auto;
 }
 
 .container.with-padding {
-  padding: 20px;
+  padding: 1.25em;
 }
 
 .container.navbar-spacing {
-  padding-top: 65px;
+  padding-top: 4.0625em;
 }
 
 .container.navbar-spacing-with-padding {
-  padding-top: 150px;
+  padding-top: 9.375em;
 }
 
 .container.row {
@@ -39,9 +45,87 @@ html{
 }
 
 .my-works-component-spacing, .skill-component-top-spacing {
-  padding-top: 85px;
+  padding-top: 5.3125em;
 }
 
 .space-between-works-and-contact{
-  padding-top: 500px;
+  padding-top: 9.375em;
 }
+
+@media (max-width: 1250px) {
+  .container {
+    width: 90%;
+    max-width: 62.5em;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1120px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 790px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 660px) {
+  .text-container {
+    max-width: 33.33em!important;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    height: auto!important;
+  }
+  .row {
+    flex-direction: column!important;
+  }
+
+  .logo-container {
+    margin-left: 0!important;
+  }
+
+  .transparent-space {
+    height: 1.5em!important;
+  }
+}
+
+@media (max-width: 590px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards-skill {
+    flex-wrap: wrap;
+  }
+
+  .card-back {
+    margin-top: 0.8em;
+  }
+
+  .work-cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 350px) {
+  .text-container {
+    max-width: 25em!important;
+  }
+}
+
+
+
