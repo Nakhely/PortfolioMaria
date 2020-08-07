@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="550" viewBox="0 0 1920 550">
+  <g id="Grupo_52" data-name="Grupo 52" transform="translate(0 -530)">
+    <rect id="Rectángulo_22" data-name="Rectángulo 22" width="1920" height="550" transform="translate(0 530)" fill="#eee"/>
+    <g id="Rectángulo_18" data-name="Rectángulo 18" transform="matrix(0.966, -0.259, 0.259, 0.966, 332.088, 810.523)" fill="none" stroke="#fff" stroke-width="5">
+      <rect width="106" height="106" stroke="none"/>
+      <rect x="2.5" y="2.5" width="101" height="101" fill="none"/>
+    </g>
+    <g id="Rectángulo_21" data-name="Rectángulo 21" transform="translate(1270.861 714.433) rotate(13)" fill="none" stroke="#fff" stroke-width="5">
+      <rect width="96" height="96" stroke="none"/>
+      <rect x="2.5" y="2.5" width="91" height="91" fill="none"/>
+    </g>
+    <g id="Elipse_22" data-name="Elipse 22" transform="translate(613 661)" fill="none" stroke="#fff" stroke-width="5">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="27.5" fill="none"/>
+    </g>
+    <g id="Elipse_23" data-name="Elipse 23" transform="translate(960 635)" fill="none" stroke="#fff" stroke-width="5">
+      <circle cx="42" cy="42" r="42" stroke="none"/>
+      <circle cx="42" cy="42" r="39.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_20" data-name="Rectángulo 20" transform="translate(1173.355 936.426) rotate(13)" fill="none" stroke="#fff" stroke-width="5">
+      <rect width="76" height="76" stroke="none"/>
+      <rect x="2.5" y="2.5" width="71" height="71" fill="none"/>
+    </g>
+    <g id="Polígono_4" data-name="Polígono 4" transform="translate(1020.83 879.29) rotate(17)" fill="none">
+      <path d="M34,0,68,25.592,55.013,67H12.987L0,25.592Z" stroke="none"/>
+      <path d="M 34.00000762939453 7.509727478027344 L 6.992679595947266 27.83806991577148 L 17.39324188232422 61 L 50.60677337646484 61 L 61.00732421875 27.83806991577148 L 34.00000762939453 7.509727478027344 M 34.00000762939453 0 L 68.00000762939453 25.59172439575195 L 55.01316070556641 67 L 12.98685455322266 67 L -7.62939453125e-06 25.59172439575195 L 34.00000762939453 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_2" data-name="Polígono 2" transform="matrix(0.995, 0.105, -0.105, 0.995, 541.983, 752.916)" fill="none">
+      <path d="M51,0l51,90H0Z" stroke="none"/>
+      <path d="M 51.00000381469727 12.17008972167969 L 10.29638671875 84 L 91.70362091064453 84 L 51.00000381469727 12.17008972167969 M 51.00000381469727 0 L 102 90 L 7.62939453125e-06 90 L 51.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_5" data-name="Polígono 5" transform="translate(716.694 762.503) rotate(-11)" fill="none">
+      <path d="M41,0,82,28.265,66.339,74H15.661L0,28.265Z" stroke="none"/>
+      <path d="M 41.00000381469727 7.28765869140625 L 7.149688720703125 30.62413787841797 L 19.94809341430664 68 L 62.05191040039063 68 L 74.85031890869141 30.62413787841797 L 41.00000381469727 7.28765869140625 M 41.00000381469727 0 L 82 28.26548385620117 L 66.33938598632813 74 L 15.66062164306641 74 L 7.62939453125e-06 28.26548385620117 L 41.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Rectángulo_19" data-name="Rectángulo 19" transform="matrix(0.996, -0.087, 0.087, 0.996, 867.833, 795.457)" fill="none" stroke="#fff" stroke-width="5">
+      <rect width="76" height="76" stroke="none"/>
+      <rect x="2.5" y="2.5" width="71" height="71" fill="none"/>
+    </g>
+    <g id="Elipse_21" data-name="Elipse 21" transform="translate(1110 778)" fill="none" stroke="#fff" stroke-width="5">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="27.5" fill="none"/>
+    </g>
+    <g id="Elipse_20" data-name="Elipse 20" transform="translate(656 911)" fill="none" stroke="#fff" stroke-width="5">
+      <circle cx="44" cy="44" r="44" stroke="none"/>
+      <circle cx="44" cy="44" r="41.5" fill="none"/>
+    </g>
+    <g id="Polígono_1" data-name="Polígono 1" transform="matrix(0.995, 0.105, -0.105, 0.995, 1388.983, 912.916)" fill="none">
+      <path d="M51,0l51,90H0Z" stroke="none"/>
+      <path d="M 51.00000381469727 12.17008972167969 L 10.29638671875 84 L 91.70362091064453 84 L 51.00000381469727 12.17008972167969 M 51.00000381469727 0 L 102 90 L 7.62939453125e-06 90 L 51.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_3" data-name="Polígono 3" transform="translate(826.367 969.112) rotate(-11)" fill="none">
+      <path d="M44,0,88,78H0Z" stroke="none"/>
+      <path d="M 44.00000381469727 12.21197509765625 L 10.27342224121094 72 L 77.72658538818359 72 L 44.00000381469727 12.21197509765625 M 44.00000381469727 0 L 88 78 L 7.62939453125e-06 78 L 44.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_6" data-name="Polígono 6" transform="translate(355.659 627.758) rotate(-11)" fill="none">
+      <path d="M47,0,94,32.849,76.048,86h-58.1L0,32.849Z" stroke="none"/>
+      <path d="M 47.00000381469727 7.320205688476563 L 7.123809814453125 35.19033050537109 L 22.25885009765625 80 L 71.74115753173828 80 L 86.87619781494141 35.19033050537109 L 47.00000381469727 7.320205688476563 M 47.00000381469727 0 L 94 32.84907150268555 L 76.047607421875 86 L 17.95240020751953 86 L 7.62939453125e-06 32.84907150268555 L 47.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_7" data-name="Polígono 7" transform="translate(1321.367 580.112) rotate(-11)" fill="none">
+      <path d="M44,0,88,78H0Z" stroke="none"/>
+      <path d="M 44.00000381469727 12.21197509765625 L 10.27342224121094 72 L 77.72658538818359 72 L 44.00000381469727 12.21197509765625 M 44.00000381469727 0 L 88 78 L 7.62939453125e-06 78 L 44.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Polígono_8" data-name="Polígono 8" transform="translate(550.367 552.112) rotate(-11)" fill="none">
+      <path d="M44,0,88,78H0Z" stroke="none"/>
+      <path d="M 44.00000381469727 12.21197509765625 L 10.27342224121094 72 L 77.72658538818359 72 L 44.00000381469727 12.21197509765625 M 44.00000381469727 0 L 88 78 L 7.62939453125e-06 78 L 44.00000381469727 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <g id="Elipse_24" data-name="Elipse 24" transform="translate(464 986)" fill="none" stroke="#fff" stroke-width="5">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="27.5" fill="none"/>
+    </g>
+  </g>
+</svg>
